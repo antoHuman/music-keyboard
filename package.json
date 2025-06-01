@@ -1,0 +1,32 @@
+{
+  "name": "note-pc-control",
+  "version": "0.0.1",
+  "description": "Control the pc using musical notes. Mainly convert notes into keystrokes.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode production --watch",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [
+    "keyboard",
+    "music",
+    "notes",
+    "microphone",
+    "pitch"
+  ],
+  "author": "antoHuman",
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "web-ext-types": "^3.2.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}

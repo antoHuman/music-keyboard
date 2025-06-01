@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // @todo add
+    // "strict": true,
+    "module": "commonjs",
+    "target": "ES2018",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "noEmitOnError": true,
+    // You have to explicitly set @types to get DefinitelyTyped type definitions
+    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"],
+  }
+}
